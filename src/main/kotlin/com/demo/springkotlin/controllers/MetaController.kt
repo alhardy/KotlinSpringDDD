@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController
 
 @RestController
 class MetaController {
-    @GetMapping("/ready")
+    @GetMapping("/meta/ready")
     fun ready(): String {
         return "Ready"
     }
