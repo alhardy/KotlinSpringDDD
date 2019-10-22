@@ -1,5 +1,5 @@
 package com.demo.springkotlin.domain
 
-class ProductAggregate {
-    constructor() {}
-}
+import java.util.*
+
+data class ProductAggregate(val id: UUID, val name: String, val description: String)
